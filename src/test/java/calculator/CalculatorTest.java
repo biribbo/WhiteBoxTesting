@@ -83,8 +83,12 @@ public class CalculatorTest {
     @Test
     public void factorialTest() {
         Assert.assertEquals(1, calculator.factorial(0));
+        Assert.assertEquals(1, calculator.factorial(1));
+        Assert.assertEquals(2, calculator.factorial(2));
+        Assert.assertEquals(6, calculator.factorial(3));
         Assert.assertEquals(120, calculator.factorial(5));
         Assert.assertNotEquals(25, calculator.factorial(5));
+        Assert.assertNotEquals(1, calculator.factorial(2));
     }
 
     @Test

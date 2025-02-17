@@ -61,7 +61,7 @@
                 <version>1.17.0</version>
                 <configuration>
                     <mutators>
-                        <mutator>DEFAULTS</mutator>
+                        <mutator>ALL</mutator>
                     </mutators>
                     <targetClasses>
                         <param>calculator*</param>
